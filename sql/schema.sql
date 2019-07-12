@@ -1,7 +1,7 @@
 CREATE TABLE song(
     song_id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    artist VARCHAR(100) NOT NULL,
-    file_path VARCHAR(100) NOT NULL,
+    name VARCHAR(60) NOT NULL,
+    artist VARCHAR(60) NOT NULL,
+    file_path VARCHAR(60) NOT NULL,
     PRIMARY KEY (song_id)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
